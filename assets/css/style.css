@@ -1,0 +1,81 @@
+/* CSS for index.html, contact.css, portfolio.html */
+
+
+body {
+    /* Visual */
+    color: #777777;
+    background: url('../images/sakura.png');
+
+    /* Typography */
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+
+}
+
+.container {
+    /* Box Model */
+    border: 1px solid#dddddd;
+}
+
+.container p {
+    /* Typograpy */
+    line-height: 30px;
+}
+
+.container, nav {
+    background: #ffffff;
+}
+
+.navbar {
+    /* Box Model */
+    border-bottom: 2px solid #cccccc;
+}
+
+.navbar, .logo {
+    height: 60px;
+}
+
+h1 {
+    /* Typography */
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+    color: #4aaaa5;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.logo, .footer {
+    /* Box Model */
+    text-align: center;
+}
+
+.logo {
+    /* Visual */
+    background: #4aaaa5;
+}
+
+.logo h1 {
+    /* Typography */
+    color: #ffffff;
+}
+
+footer {
+    /* Visual */
+    background: #666666;
+    height: 60px;
+    width: 100%;
+
+    /* Box Model */
+    border-top: 8px solid #4aaaa5;
+
+    /* Typography */
+    color: #cccccc;
+
+    /* Positioning */
+    bottom: 0;
+}
+
+
+
+hr {
+    /* Box Model */
+    margin: 25px 0;
+}
