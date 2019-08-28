@@ -30,10 +30,6 @@ nav {
     border-bottom: 2px solid #cccccc;
 }
 
-.logo {
-    height: 60px;
-}
-
 h1 {
     /* Typography */
     font-family: 'Georgia', Times, 'Times New Roman', serif;
@@ -47,14 +43,19 @@ h1 {
     text-align: center;
 }
 
+.logo, .btn {
+    background: #4aaaa5;
+}
+
 .logo {
     /* Visual */
+    height: 60px;
     background: #4aaaa5;
     padding: 0 20px;
     z-index: ;
 }
 
-.logo h1 {
+.logo h1, .btn {
     /* Typography */
     color: #ffffff;
 }
