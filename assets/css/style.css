@@ -11,7 +11,7 @@ body {
 
 }
 
-.container {
+#main-content {
     /* Box Model */
     border: 1px solid#dddddd;
 }
@@ -21,16 +21,16 @@ body {
     line-height: 30px;
 }
 
-.container, nav {
+.container, .navbar, nav {
     background: #ffffff;
 }
 
-.navbar {
+nav {
     /* Box Model */
     border-bottom: 2px solid #cccccc;
 }
 
-.navbar, .logo {
+.logo {
     height: 60px;
 }
 
@@ -50,6 +50,8 @@ h1 {
 .logo {
     /* Visual */
     background: #4aaaa5;
+    padding: 0 20px;
+    z-index: ;
 }
 
 .logo h1 {
@@ -73,9 +75,13 @@ footer {
     bottom: 0;
 }
 
-
-
 hr {
     /* Box Model */
     margin: 25px 0;
+}
+
+@media (max-width: 576px) {
+    .container {
+        width: 100%;
+    }
 }
