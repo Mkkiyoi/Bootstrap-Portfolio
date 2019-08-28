@@ -16,7 +16,7 @@ body {
     border: 1px solid#dddddd;
 }
 
-.container p {
+#main-content p {
     /* Typograpy */
     line-height: 30px;
 }
@@ -52,7 +52,6 @@ h1 {
     height: 60px;
     background: #4aaaa5;
     padding: 0 20px;
-    z-index: ;
 }
 
 .logo h1, .btn {
@@ -71,14 +70,16 @@ footer {
 
     /* Typography */
     color: #cccccc;
-
-    /* Positioning */
-    bottom: 0;
 }
 
 hr {
     /* Box Model */
     margin: 25px 0;
+}
+
+.portfolio-img {
+    /* height: 200px;
+    width: 200px; */
 }
 
 @media (max-width: 576px) {
