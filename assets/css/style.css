@@ -43,18 +43,17 @@ h1 {
     text-align: center;
 }
 
-.logo, .btn {
+.logo, .btn, .portfolio-text {
     background: #4aaaa5;
 }
 
 .logo {
     /* Visual */
     height: 60px;
-    background: #4aaaa5;
     padding: 0 20px;
 }
 
-.logo h1, .btn {
+.logo h1, .btn, .portfolio-text {
     /* Typography */
     color: #ffffff;
 }
@@ -70,6 +69,7 @@ footer {
 
     /* Typography */
     color: #cccccc;
+    line-height: 1;
 }
 
 hr {
@@ -77,13 +77,36 @@ hr {
     margin: 25px 0;
 }
 
-.portfolio-img {
-    /* height: 200px;
-    width: 200px; */
+.portfolio-img, .portfolio-text {
+    /* Visual */
+    width: 200px;
+}
+
+.portfolio-text {
+    /* Visual */
+    height: 35px;
+
+    /* Typography */
+    text-align: center;
+
+    /* Positioning */
+    bottom: 0;
+}
+
+.portfolio-text p {
+    /* Box Model */
+    margin-top: 2px;
 }
 
 @media (max-width: 576px) {
     .container {
+        /* Visual */
         width: 100%;
+    }
+
+    .portfolio-text, .portfolio-text p {
+        /* Visual */
+        max-width: 100%;
+        height: auto
     }
 }
